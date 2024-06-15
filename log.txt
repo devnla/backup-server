@@ -1,0 +1,17 @@
+2024-06-16 01:36:48.463192 - Backup failed: rsync: [sender] opendir "/var/www/blossoms/storage/app/filament-excel" failed: Permission denied (13)
+rsync: [sender] opendir "/var/www/blossoms/storage/app/livewire-tmp" failed: Permission denied (13)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1865) [generator=3.2.7] 
+
+==================================================
+2024-06-16 01:37:58.073068 - Backup successful: receiving incremental file list
+
+sent 5,216 bytes  received 1,131,515 bytes  206,678.36 bytes/sec
+total size is 221,896,591  speedup is 195.21 
+
+==================================================
+2024-06-16 01:39:01.610343 - Backup successful: receiving incremental file list
+
+sent 5,208 bytes  received 1,131,511 bytes  174,879.85 bytes/sec
+total size is 221,896,591  speedup is 195.21 
+
+==================================================

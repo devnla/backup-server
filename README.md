@@ -15,16 +15,21 @@ Install the project with python
 
 ## Usage
 
-Run the project
+Run the program to make a backup
 
 ```bash
-    python server-backup.py
+    python server-backup.py backup
+```
+Run the program to display logs
+
+```bash
+    python server-backup.py log {number of logs}
 ```
 
 Run the project in cron job daily
 
 ```bash
-    0 0 * * * /usr/bin/python3 /path/to/server-backup.py
+    0 0 * * * /usr/bin/python3 /path/to/server-backup.py backup
 ```
     
 ## Environment Variables
