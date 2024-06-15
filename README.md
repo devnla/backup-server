@@ -37,11 +37,19 @@ Run the project in cron job daily
 To run this project, you will need to add the following environment variables to your .env file
 
 `SERVER` - IP or Host of the server
+
 `PORT` - Port of the server
+
 `SSH_TYPE` - password or private key
+
 `SSH_USER` - username of the server
+
 `SSH_PASS` - password of the server
+
 `SSH_KEY_PATH` - path of the private key
+
 `REMOTE_DIR` - directory on the remote server
+
 `LOCAL_DIR` - directory on the local machine
+
 `LOG_FILE` - path of the log file
