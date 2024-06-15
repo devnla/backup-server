@@ -1,0 +1,12 @@
+# Project
+logs/
+.env
+
+# System files
+__pycache__/
+*.py[cod]
+*$py.class
+.env/
+.vscode/
+.DS_Store
+Thumbs.db
